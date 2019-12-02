@@ -20,15 +20,17 @@ Can use `rails dbconsole` to use SQL queries against our db. Helpful to see exac
 
 In our Cat Model
 
+*Cat.names
+    Returns an array of all the cats' names, no dups
+
 * Cat.fluffies
     Returns all the fluffy cats
-
 
 * Cat.olds
     Returns all the cats over age 8
 
 * Cat.kittens
-    Returns all the cats under ange 1
+    Returns all the cats under age 1
 
 * Cat.middle_aged
     Returns all the cats between ages 1 and 8 (including 1 and 8)
